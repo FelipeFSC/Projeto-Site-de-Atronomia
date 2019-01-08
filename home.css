@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
 	margin: 0px;
 }
@@ -14,7 +16,7 @@ header {
 .cont_logo {
 	width: 9%;
 	height: 100%;
-	background-color: orange;
+	/*background-color: orange;*/
 	float: left;
 }
 
@@ -30,6 +32,13 @@ figure.logo img {
 .nom {
 	width: 30%; 
 	height: 100%;
-	background-color: pink;
+	/*background-color: pink;*/
 	float: left;
+}
+.nom h1{
+	color: #757575;
+	margin-top: 10px;
+	font-family: gabriola;
+	letter-spacing: 1px;
+	font-size: 40px;
 }
